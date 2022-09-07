@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,500;0,700;1,400&family=Roboto&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css" />
+  <title>CLG-Week2</title>
+</head>
+
+<body>
+  <h1>Lesson 4 & Lesson 5</h1>
+
+  <img class="demo-bg"
+    src="https://images.unsplash.com/photo-1525498128493-380d1990a112?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1035&q=80"
+    alt="background image">
+
+  <div id="firstId">
+    <!--First Section -->
+    <h2>Subscript and Superscript</h2>
+    <p>
+      The subscript text appears in a smaller font and the half character below
+      the normal line. It is generally used to write chemical equations or
+      chemical formulas such as H<sub>2</sub>SO<sub>4</sub>
+    </p>
+    <p>
+      Superscript is generally used to write mathematical equations (like x
+      <sup>2</sup> + y<sup>4</sup> = r<sup>6</sup>), footnotes, and many more.
+    </p>
+    <p>Descendant Selector :The descendant Selector selects all child elements of the selected parent element. In this
+      example, the descendant selector selects all paragraphs descendant of the class "firstId"
+    </p>
+  </div>
+
+  <div id="secondId">
+    <div id="child">
+      <p>Direct Child Selector : This selector selects only the direct child of the selected element.</p>
+    </div>
+    <!--Second Section -->
+
+    <h2>Strong, em</h2>
+    <h3>Was <del>Bold</del> replaced by <ins>Strong</ins>?</h3>
+
+    <p>
+      HTML was never meant to be about styles.
+      <strong> is semantic.</strong> Strong describes the text it surrounds
+      (e.g., "this text should be stronger than the rest of the text you've
+      displayed") as opposed to describing how the text it surrounds should be
+      displayed (e.g., "this text should be bold"). Note that <b> BOLD </b> and
+      <i> ITALIC </i> <span>have not been deprecated in HTML5.</span> Their new use is to
+      semantically represent styles (or intended presentation), whereas
+      <strong>STRONG </strong> and <em> EM </em> represent structure .
+    </p>
+  </div>
+
+  <h1>From w3 Schools</h1>
+
+  <h2>position: static;</h2>
+
+  <p>An element with position: static; is not positioned in any special way; it is always positioned according to the
+    normal flow of the page:</p>
+
+  <div class="static">
+    This div element has position: STATIC;
+  </div>
+
+  <h2>position: relative;</h2>
+
+  <p>An element with position: relative; is positioned relative to its normal position:</p>
+
+  <div class="relative">
+
+    This div element has position: RELATIVE;
+  </div>
+
+  <h2>position: fixed;</h2>
+
+  <p>An element with position: fixed; is positioned relative to the viewport, which means it always stays in the same
+    place even if the page is scrolled:</p>
+
+  <div class="fixed">
+    This div element has position: FIXED; bottom:0px, right:0px
+  </div>
+
+  <h2>position: absolute;</h2>
+
+  <p>An element with position: absolute; is positioned relative to the nearest positioned ancestor (instead of
+    positioned relative to the viewport, like fixed):</p>
+
+  <div class="absolute">
+    This div element has position: ABSOLUTE;
+  </div>
+  </div>
+</body>
+
+</html>
